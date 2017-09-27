@@ -5,6 +5,7 @@ const data = fs.readFileSync('./data/free-zipcode-database.csv');
 const records = parse(data, { columns: true });
 
 
+//Creates maps by with city as key and zip as key
 const byZip = {};
 const byCity = {};
 
